@@ -7,7 +7,7 @@ import ws.client.wsimport.service.HelloServiceImplService;
  * wsimport -keep -encoding utf-8 -p ws.client.wsimport.service -verbose http://localhost:8888/ws/jaxws/hello\?wsdl
  * wsimport -keep -encoding utf-8 -p ws.client.wsimport.service -verbose ../resources/hello.wsdl
  *
- * @author fengxiongsun
+ * @author xiaogoubuli
  */
 public class WsimportClient {
     public static void main(String[] args) {
